@@ -7,6 +7,5 @@ window.addEventListener("DOMContentLoaded", function () {
         this.document.body.style.backgroundColor = "#"+ randomHexColor;
         color.innerHTML = "#"+ randomHexColor;
     }
-
     btn.addEventListener("click", generateHexColor);
 })
