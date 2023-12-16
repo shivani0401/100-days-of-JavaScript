@@ -46,4 +46,12 @@ console.log(count);
 
 /*Bracket Notation: [n]-> refers to the nth character of the string also to the nth index of the array */
 
-/*Strings immutability:  */
+/*Strings immutability:  
+if you want to change value assigned to the string you have to redeclare it.
+e.g. var myStr="abc";
+myStr[0]="d"; -> This will give an error because strings are immutable.
+But if you do like below then it will work fine.
+var myStr="dbc";
+*/
+
+
