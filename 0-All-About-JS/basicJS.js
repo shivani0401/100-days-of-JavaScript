@@ -51,7 +51,30 @@ if you want to change value assigned to the string you have to redeclare it.
 e.g. var myStr="abc";
 myStr[0]="d"; -> This will give an error because strings are immutable.
 But if you do like below then it will work fine.
-var myStr="dbc";
-*/
+var myStr="dbc"; */
 
+/*Array:
+there are 2 types of arrays in JS.
+1-d and multi-d */
 
+/*accessing arrays using index*/
+var arr=[5,6,7];
+console.log(arr[0]); // Outputs: 5
+/*same method can be used in accessing element in multi dimentional arrays. */
+var myArray=[[1,2,3],[4,5,6],[7,8,9]];
+var myData=myArray[2][1];
+console.log(myData);
+/*Methods available in Array object:
+push(): pushing data at the end of the array*/
+var myArray=[1,2,3];
+myArray.push(4);
+console.log(myArray)
+/*pop(): removes the last element of the array and returns it.*/
+myArray.pop();
+console.log(myArray)
+/*shift(): removes the first element of the array and returns it.*/
+myArray.shift();
+console.log(myArray)
+/*unshift(): adds the data at the start of the array.*/
+myArray.unshift(5);
+console.log(myArray)
